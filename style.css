@@ -81,7 +81,7 @@ footer {
 ABOUT
 */
 
-about {
+#about {
     background-color: #f8ffdc;
 }
 
@@ -124,7 +124,7 @@ img {
 DISCORD
 */
 
-discord {
+#discord {
     background-color: #cefeff;
 }
 
@@ -142,7 +142,7 @@ img {
 CONTACT
 */
 
-contact {
+#contact {
     background-color: #dce9ff;
 }
 
@@ -181,4 +181,12 @@ footer {
 
 .footer__link {
     padding: 0 16px;
+}
+
+/* SMALL CELL PHONES, TABLETS, LARGE SMARTPHONES */
+@media (max-width: 728px) {
+    .row {
+    flex-direction: column;
+}
+    
 }
